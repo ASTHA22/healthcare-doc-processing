@@ -34,8 +34,8 @@ env/
 *.swp
 *.swo
 
-# Test outputs
-test_output/
+# Test outputs are kept in version control
+# test_output/
 
 # Logs
 *.log

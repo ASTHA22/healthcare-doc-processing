@@ -1,0 +1,72 @@
+=== Test Run: 20250616_025408 ===
+
+
+=============================
+
+Test Case 1: INSURANCE_CLAIM
+=============================
+
+=== INPUT TEXT ===
+
+            PATIENT INFORMATION
+            Name: John Doe
+            Date of Birth: 01/15/1980
+            Member ID: ABC123456
+            
+            CLAIM DETAILS
+            Claim #: CLM987654
+            Date of Service: 05/10/2023
+            Provider: Dr. Smith
+            Diagnosis Code: E11.65
+            Procedure Code: 99213
+            Total Amount: $150.00
+            
+
+=== EXTRACTED FIELDS ===
+patient_name: INFORMATION
+            Name
+date_of_birth: 1980-01-15
+member_id: ABC123456
+date_of_service: 2023-05-10
+provider_name: Dr
+diagnosis_code: E11.65
+amount: 150.0
+claim_number: ABC123456
+
+=== VALIDATION ===
+Is Valid: True
+
+
+==========================
+
+Test Case 2: PRESCRIPTION
+==========================
+
+=== INPUT TEXT ===
+
+            PRESCRIPTION
+            
+            Patient: Jane Smith
+            Date: 06/15/2023
+            
+            Medication: Amoxicillin
+            Dosage: 500mg
+            Frequency: Every 8 hours
+            Refills: 2
+            
+            Prescriber: Dr. Johnson
+            DEA: AB1234567
+            
+
+=== EXTRACTED FIELDS ===
+patient_name: Jane Smith
+            Date
+medication: Amoxicillin
+dosage: 500mg
+frequency: Every 8 hours
+refills: 2
+prescriber: Dr. Johnson
+
+=== VALIDATION ===
+Is Valid: True
+
