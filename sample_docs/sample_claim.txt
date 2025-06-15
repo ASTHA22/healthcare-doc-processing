@@ -1,0 +1,24 @@
+HEALTH INSURANCE CLAIM FORM
+
+Patient Information:
+-------------------
+Name: John Doe
+Date of Birth: 01/15/1980
+Policy Number: POL123456789
+Member ID: MEM987654
+
+Provider Information:
+-------------------
+Provider Name: City Medical Center
+Provider NPI: 1234567890
+Tax ID: 12-3456789
+
+Claim Details:
+-------------
+Date of Service: 05/15/2023
+Procedure Code: 99213
+Diagnosis Code: J18.9
+Billed Amount: $250.00
+
+Treatment Description:
+Office visit for upper respiratory infection. Patient presented with cough, fever, and sore throat. Physical examination performed, prescribed medication.
