@@ -1,7 +1,7 @@
 # Healthcare Document Processing
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 This project implements a document processing pipeline for healthcare insurance documents using Azure's AI services. It provides end-to-end document processing including classification, OCR, and structured data extraction.
 
@@ -76,14 +76,6 @@ healthcare-doc-processing/
 ├── requirements.txt         # Python dependencies
 └── README.md               # This file
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Prerequisites
 
